@@ -1,0 +1,8 @@
+device EFM32GG990F1024
+if SWD
+speed 1000
+jtagconf -1, -1
+autoconnect 1
+loadbin ./BUILD/EFM32GG_STK3700/GCC_ARM/application.bin, 0x0
+r
+g

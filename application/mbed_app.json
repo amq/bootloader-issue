@@ -1,0 +1,8 @@
+{
+    "target_overrides": {
+        "EFM32GG_STK3700": {
+            "events.use-lowpower-timer-ticker": true,
+            "target.bootloader_img": "../bootloader/BUILD/EFM32GG_STK3700/GCC_ARM/bootloader.bin"
+        }
+    }
+}

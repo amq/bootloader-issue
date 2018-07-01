@@ -1,0 +1,9 @@
+{
+    "target_overrides": {
+        "*": {
+            "target.restrict_size": "0x20000",
+            "target.macros_add": ["NDEBUG=1"],
+            "platform.stdio-flush-at-exit": false
+        }
+    }
+}
